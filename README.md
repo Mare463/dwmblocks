@@ -18,6 +18,7 @@ As described by torrinfail:
 # Dependencies
 * DWM
 * pulseaudio (uses pactl)
+* brillo (for brightness)
 
 # Running dwmblocks
 In your `~/.xinitrc` file put: 
