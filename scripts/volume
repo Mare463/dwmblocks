@@ -3,8 +3,8 @@ vol=$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n $(( $SINK + 1 )) |
 mute=$(pacmd list-sinks | awk '/muted/ { print $2 }')
 if [[ $mute == *"yes"* ]];
 then
-        printf " "
-else
-        printf " "
+	printf " "
+else 
+	printf " "
         printf $vol
 fi
